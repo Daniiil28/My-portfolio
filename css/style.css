@@ -1,2 +1,120 @@
-@import"nav.css";
-@import"footer.css";
+
+
+/* footer */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    width: 1366px;
+    height: 657px;
+    left: 0px;
+
+    background: #316099;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 391px;
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+
+}
+
+.text-footer-h {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.left-text-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text-footer-h {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin: 91px 0px 0px 0px;
+}
+
+.text-footer-p {
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.right-button-footer {
+    margin: 126px 0 0 0px;
+}
+
+.button-footer {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgb(53 110 173 / 20%);
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 72px;
+
+}
+
+.footer-information {
+    display: flex;
+    justify-content: space-around;
+}
+
+.head-letter {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.a-footer-info {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.ul-footer {
+    margin: 45px 0 0 0px;
+}
+
+.site-made {
+    margin: 91px 0 0 124px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
