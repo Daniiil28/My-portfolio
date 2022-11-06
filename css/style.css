@@ -1,4 +1,172 @@
+/* nav */
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav,
+header,
+main,
+footer {
+    margin: 0 auto;
+    max-width: 1366px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 38px;
+}
+
+.switch-left {
+    margin-top: 44px;
+    margin-left: 114px;
+}
+
+.contact-right {
+    margin-top: 44px;
+    margin-right: 114px;
+}
+
+.text-progect {
+    position: relative;
+
+}
+
+.text-contact {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+    left: 644px;
+    top: 65px;
+}
+
+.lorem {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    left: 112px;
+    top: 96px;
+}
+
+.container-main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.messagebox {
+    width: 540px;
+    height: 800px;
+    left: 614px;
+    top: 436px;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+}
+
+.text-massage {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+.textinfo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+}
+
+.text-email-name {
+    opacity: 0.4;
+    /* blue_03 */
+
+    border: 1px solid #356EAD;
+    border-radius: 10px;
+    width: 98%;
+    width: 428px;
+    height: 72px;
+}
+
+.button-main {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgb(53 110 173 / 20%);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 72px;
+
+}
+
+.sizemassege {
+    display: flex;
+    flex-direction: column;
+    margin: 54px;
+
+}
+
+.message {
+    width: 428px;
+    height: 144px;
+}
+
+/* верстка левой части */
+.adress-phone {
+    margin-top: 93px;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;
+}
+
+.address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+.mapsYandex {
+    margin-top: 95px;
+    margin-bottom: 112px;
+}
 
 /* footer */
 * {
